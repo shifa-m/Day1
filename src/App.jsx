@@ -4,7 +4,7 @@ import BottomPage from './Components/Section2/BottomPage'
 
 const App = () => {
   return (
-    <div className='bg-mist-900'>
+    <div className='bg-mist-900 '>
       <Home/>
       <BottomPage/>
     </div>
