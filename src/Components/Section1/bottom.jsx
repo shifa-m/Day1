@@ -32,7 +32,7 @@ const Bottom = () => {
     </h1>
 
     <p className="text-base md:text-2xl mt-6 cursor-pointer transition-transform duration-500 hover:scale-105">
-      From logo to language. I build brands that connect and convert.
+      From logo to language. I build brands <br /> that connect and convert.
     </p>
   </div>
 

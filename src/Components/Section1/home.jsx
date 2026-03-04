@@ -3,6 +3,7 @@ import Bottom from './bottom'
 import {ArrowRight} from 'lucide-react'
 
 const Home = () => {
+  
   return (
    <div className="bg-[url('https://images.unsplash.com/photo-1620911822206-7beb8e56323f?q=80&w=1170&auto=format&fit=crop')] 
                 min-h-screen 
