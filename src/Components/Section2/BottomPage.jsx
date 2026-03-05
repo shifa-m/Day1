@@ -21,6 +21,8 @@ const BottomPage = () => {
     sm:flex-row 
     sm:justify-center
     sm:gap-10
+    lg:gap-[10%]
+    lg:p-[4%]
   '>
 
     <div className='font-semibold text-center sm:text-left hover:scale-110 transition duration-500'>
@@ -42,7 +44,7 @@ const BottomPage = () => {
       </h1>
     </div>
 
-    <div className='font-bold text-lg sm:text-2xl hover:scale-110 transition duration-500'>
+    <div className='font-bold text-lg sm:text-2xl  hover:scale-110 transition duration-500'>
       <h1 className="flex gap-2 items-center">
         <Bolt size={25} />
         FrameBlox

@@ -1,6 +1,11 @@
 import { ArrowRight } from "lucide-react";
 
 const Content = () => {
+
+  const click=()=>{
+    alert("Great to connect")
+  }
+
   return (
     <div className="flex flex-col mt-16 px-4 sm:px-8">
 
@@ -9,7 +14,7 @@ const Content = () => {
 
         {/* Left Side */}
         <div className="w-full lg:w-1/2 transition duration-500 hover:scale-105 lg:mt-24">
-          <h1 className="text-orange-500 font-bold text-xl sm:text-2xl md:text-3xl">
+          <h1 className="text-red-600 font-bold text-xl sm:text-2xl md:text-3xl">
             Behind the Designs
           </h1>
 
@@ -43,8 +48,8 @@ const Content = () => {
           Let's Build Something <br /> Meaningful Together
         </h1>
 
-       <button className="
-bg-orange-500 
+       <button onClick={click} className="
+bg-red-700 
 text-white 
 px-3 py-1.5
 sm:px-4 sm:py-2  

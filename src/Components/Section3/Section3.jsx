@@ -21,7 +21,8 @@ const Section3 = (props) => {
               transition-transform 
               duration-500 
               hover:scale-105
-              shadow-lg shadow-blue-800
+              shadow-lg shadow-red-900
+              cursor-pointer
               
             "
           >
